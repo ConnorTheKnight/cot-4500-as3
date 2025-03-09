@@ -15,7 +15,7 @@ When executing assignment_3.py the program will wait for user input, this can be
 
 [Function for f(y,t)]
 
-[left bound fot ti] [right bound fot ti]
+[left bound fot t] [right bound fot t]
 
 [number of Iterations]
 
