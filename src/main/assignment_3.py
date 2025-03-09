@@ -6,13 +6,13 @@ def makeFunction(input):
 functionIn = input()
 f = makeFunction(functionIn)
 RangeIn = input().split()
-a = int(RangeIn[0])
-b = int(RangeIn[1])
+a = float(RangeIn[0])
+b = float(RangeIn[1])
 Iterations = input()
 N = int(Iterations)
 h = ((b-a)*(1.0))/N
 InitialPoint = input()
-w0 = int(InitialPoint)
+w0 = float(InitialPoint)
 #Question 1
 w = w0
 index = 0
