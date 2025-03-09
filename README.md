@@ -1,16 +1,16 @@
 # cot-4500-as3
 ## Compilation Instructions
 ### assignment_3.py
-In order to compile and run the file assignment_3.py type:
+In order to compile and run the file assignment_3.py type in the terminal:
 - python3 src/main/assignment_3.py
   
 then enter input according to [Input Instructions](https://github.com/ConnorTheKnight/cot-4500-as3/blob/main/README.md#input-instructions)
 ### test_assignment_3.py
-In order to compile and run the file test_assignment_3.py type:
+In order to compile and run the file test_assignment_3.py type in the terminal:
 - python3 src/test/test_assignment_3.py
   
 ## Input Instructions
-When executing assignment_3.py the program will wait for user input, this can be provided either by piping input from a text file (add " < [Name of input file].txt") or by manually entering input according to the format specified below (if using a text file, the text in the file should also follow this format)
+When executing assignment_3.py the program will wait for user input, this can be provided either by piping input from a text file (add " < [Name of input file].txt" after the terminal command) or by manually entering input according to the format specified below (if using a text file, the text in the file should also follow this format)
 ### Input Formatting
 
 [Function for f(y,t)]
