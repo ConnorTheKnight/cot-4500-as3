@@ -7,7 +7,7 @@ In order to compile and run the file assignment_3.py type either:
 or
 - python3 src/main/assignment_3.py
   
-then enter input according to [Input Instructions](https://github.com/ConnorTheKnight/cot-4500-as3/main/README.md#input-instructions)
+then enter input according to [Input Instructions](https://github.com/ConnorTheKnight/cot-4500-as3/blob/main/README.md#input-instructions)
 ### test_assignment_3.py
 In order to compile and run the file test_assignment_3.py type either:
 - python3 src/test/test_assignment_3.py
