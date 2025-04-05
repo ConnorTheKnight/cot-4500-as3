@@ -21,6 +21,14 @@ When executing assignment_3.py the program will wait for user input, this can be
 
 [Initial Value]
 
+[Number of unique variables in system of equations]
+
+[Number of rows in the matrix for question 2 of 3b]
+
+[Matrix for question 1 of 3b]
+
+[Matrix for question 2 of 3b]
+
 ### Input Data Types
 to avoid error in parsing please specify each parameter as the following data types
 - write [Function for f(y,t)] as python compatible code
@@ -28,6 +36,10 @@ to avoid error in parsing please specify each parameter as the following data ty
 - write [right bound fot ti] as an Integer or Floating Point Number
 - write [number of Iterations] as an Integer
 - write [Initial Value] as an Integer or Floating Point Number
+- write [Number of unique variables in system of equations] as an Integer
+- write [Number of rows in the matrix for question 2 of 3b] as an Integer
+- write [Matrix for question 1 of 3b] as space separated Floating Point Numbers or Integers with a newline separating each row
+- write [Matrix for question 2 of 3b] as space separated Floating Point Numbers or Integers with a newline separating each row
 ### Example Input
 
 t-(y*y)
@@ -37,6 +49,25 @@ t-(y*y)
 10
 
 0
+
+3
+
+4
+
+2 -1 1 6
+
+1 3 1 0
+
+-1 5 4 -3
+
+1 1 0 3
+
+2 1 -1 1
+
+3 -1 -1 2
+
+-1 2 3 -1
+
 
 ## Requirements.txt
 Requirements.txt is not necessary for this program since no external libraries were used
