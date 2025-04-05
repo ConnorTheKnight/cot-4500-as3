@@ -1,12 +1,16 @@
 #Useful Matrix Functions
 def printM (M) :
-    matrixString = ""
-    for row in M :
-        for element in row :
-            matrixString += "[" + str(element) + "]\t"
-        matrixString += "\n"
+    matrixString = "["
+    for row in range(len(M)) :
+        if row != 0 :
+            matrixString += "\n"
+        matrixString+="["
+        for column in range(len(M[row])) :
+            matrixString += " " + str(int(M[row][column])) + ".\t"
+        matrixString += "]"
+    matrixString += "]\n"
     print(matrixString)
-
+    
 def rowMultiply(row, scalar) :
     index = 0
     while index < len(row) :
